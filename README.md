@@ -8,6 +8,12 @@ Citation: A statistical method for the detection of variants from next-generatio
 
 ############################################################################################################
 
+Fork Rationale, why fork?
+
+Not entirely robust to manually compilation. Incorporates a rather old version of samtools (somewhere close to 0.1.13 which is from 2011)
+Very deceptively includes object files in the git source tree, which is bad show and causes headaches on linking. Also a aseries of warnings
+when compiling don't know if I'll have time to clear them.
+
 Introduction:
 =============
 
